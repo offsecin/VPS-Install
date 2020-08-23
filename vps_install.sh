@@ -21,6 +21,7 @@ mkdir /root/Tools;
 mkdir /root/Recon;
 mkdir /root/arsenal;
 dir=/root/Tools;
+
 go get -u github.com/m4ll0k/Aron;
 go get github.com/Ice3man543/SubOver;
 git clone https://github.com/tomnomnom/hacks $dir/hacks;
@@ -64,6 +65,9 @@ go get github.com/hakluke/hakrawler;
 go get github.com/hakluke/hakrevdns;
 go get -u github.com/tomnomnom/httprobe;
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
+gir clone https://github.com/KathanP19/JSFScan.sh.git
+GO111MODULE=on go get -v github.com/projectdiscovery/naabu/cmd/naabu
+go get -u github.com/hahwul/dalfox
 git clone https://github.com/udit-thakkur/AdvancedKeyHacks $dir/AdvancedKeyHacks;
 git clone https://github.com/streaak/keyhacks $dir/keyhacks;
 git clone https://github.com/s0md3v/Arjun $dir/Arjun;
@@ -129,6 +133,7 @@ alias gmapi='python3 /root/Tools/gmapsapiscanner/maps_api_scanner_python3.py'
 alias Bheem=/root/arsenal/Bheem.sh
 alias reverse=/root/arsenal/reverse.sh
 alias corsy=/root/arsenal/corsy.sh
+alias dalfox=/root/go/bin/dalfox
 " >> /root/.bashrc;
 source ~/.bashrc;
 export  PATH=$PATH:/root/go/bin; 
